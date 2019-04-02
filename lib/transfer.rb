@@ -17,13 +17,10 @@ class Transfer
   end
 
   def valid?
-    if @sender == true
-      if @receiver == true
+    if @sender == true && @receiver == true
     else
       false
     end
-  end
-
   end
 
   def execute_transaction
