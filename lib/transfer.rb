@@ -29,7 +29,7 @@ class Transfer
     puts "executing transaction"
     @sender.deposit(-1 * @amount)
     @receiver.deposit(@amount)
-    @status = "complete" 
+    @status = "complete"
   elsif @sender.valid? == false
     @status = "rejected"
    "Transaction rejected. Please check your account balance."
