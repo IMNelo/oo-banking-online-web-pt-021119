@@ -33,9 +33,9 @@ class Transfer
     elsif @sender.valid? == false || @sender.balance < @amount
       @status = "rejected"
       "Transaction rejected. Please check your account balance."
-    else
+    #else
     end
-  end
+    end
 
   def reverse_transfer
   end
