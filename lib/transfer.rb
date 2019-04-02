@@ -17,7 +17,7 @@ class Transfer
   end
 
   def valid?
-    if @sender == true && @receiver == true
+    if (@sender == true && @receiver == true)
     else
       false
     end
